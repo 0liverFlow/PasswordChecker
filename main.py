@@ -4,7 +4,7 @@ from password_characters_occurences import get_password_characters_occurences
 from password_generator import password_generator
 from test_password import determine_elapsed_time, format_time, crack_password
 from menu import password_checker_menu
-from password_entropie import get_entropie, password_level_sensibility
+from password_entropy import get_entropy, password_level_sensibility
 import time
 from rich.console import Console
 console = Console()
