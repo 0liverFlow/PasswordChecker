@@ -17,3 +17,6 @@ According to a study carried out by <a href='https://nordpass.com/fr/most-common
 This clearly shows us there is a lot to do in users cybersecurity awareness.<br>
 In regards to that, i decided to develop this script in order to sensitize the user, concerning the risks of using a weak password.<br>
 **Note:** The mimimum length, and the entropy's appreciation are based on <a href='https://www.ssi.gouv.fr/uploads/2021/10/anssi-guide-authentification_multifacteur_et_mots_de_passe.pdf'>ANSSI's password recommendations</a>.
+
+#Demo
+<img width="766" alt="image" src="https://user-images.githubusercontent.com/64969369/210280500-b3bec778-0fc2-41dd-b901-574b8c4612b2.png">
