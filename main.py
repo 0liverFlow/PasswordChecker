@@ -45,6 +45,6 @@ if __name__ == '__main__':
             print('The password should have 20 characters minimum!')
         print(f"Generated password : {password_generator(password_length)}")
     print("────────────────────────────────────────────────────────────────\n")
-    print('Hope that you liked the program :)\nFeel free to hit me up for any suggestions(^_-)')
+    print('Feel free to hit me up for any suggestions(^_-)')
     time.sleep(2)
     print("Hmmm last thing: if your password was considered as weak, do not forget to CHANGE it ASAP(^.^)")
