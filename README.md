@@ -3,7 +3,7 @@
 
 # PasswordChecker🔐
 PasswordChecker is a python script which aims to help the user to test their password strength.<br>
-According to a study carried out by <a href=''>NordVPN</a> researchers, the ten common passwords widely utilized in France are as follows: 
+According to a study carried out by <a href='https://nordpass.com/fr/most-common-passwords-list/'>NordVPN</a> researchers, the ten common passwords widely utilized in France are as follows: 
 - 123456
 - 123456789
 - azerty
