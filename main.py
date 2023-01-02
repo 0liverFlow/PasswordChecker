@@ -27,7 +27,7 @@ if __name__ == '__main__':
         
     #Get the password entropy
     printc("[cyan3 bold underline][+] Password entropie[/cyan3 bold underline]\n")
-    password_entropie = get_entropie(len(user_password), password_characters_occurences_dict)
+    password_entropie = get_entropy(len(user_password), password_characters_occurences_dict)
     printc(password_level_sensibility(password_entropie))
 
     #Try to crack user password using custom password dictionary or rockyou by default
