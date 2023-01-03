@@ -1,8 +1,5 @@
 <img width="926" alt="image" src="https://user-images.githubusercontent.com/64969369/210290907-e00a0768-75f2-4062-b3c4-5735bac46c95.png">
 
-<!--![image](https://user-images.githubusercontent.com/64969369/194733984-bce2da58-01ae-4dd0-9fd4-b8d4aa4b87e3.png)--!>
-
-
 # PasswordChecker🔐
 PasswordChecker is a python script which aims to help the user to test their password strength.<br>
 According to a study carried out by <a href='https://nordpass.com/fr/most-common-passwords-list/'>NordVPN</a> researchers, the ten common passwords widely utilized in France are as follows: 
