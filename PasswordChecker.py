@@ -6,7 +6,6 @@ from rich import print as printc
 from password_characteristics import check_character_occurences_in_password, check_password_characters_mixture
 from password_characters_occurences import get_password_characters_occurences
 from password_generator import password_generator
-from menu import password_checker_menu
 from password_entropy import get_entropy, password_level_sensibility
 from have_i_been_pwned_check import check_haveibeenpwned_db
 
