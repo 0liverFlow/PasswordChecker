@@ -12,7 +12,22 @@ from have_i_been_pwned_check import check_haveibeenpwned_db
 
 
 if __name__ == '__main__':
-    password_checker_menu()
+# Display banner
+    print("""
+                 .--------.
+                / .------. \\
+               / /        \ \\
+               | |        | |
+              _| |________| |_
+            .' |_|P4SSW0RD|_| '.
+            '._____ ____ _____.'
+            |     .'_____'.    |
+            '.__.'.'     '.'.__'
+            '.__  | CHECK |  __'
+            |   '.'.____.'.'   |
+            '.____'.____.'____.'
+            '.________________.'Author: 0LIVERFLOW | Version: 1.0
+            \n""")    
     user_password = getpass('Enter your passw0rd: ')
     # Checking Have I Been Pwned Database
     printc("\n[cyan3 bold underline][*] Checking HaveIBeenPwned database[/cyan3 bold underline]\n")
