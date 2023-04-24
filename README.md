@@ -15,10 +15,20 @@ These checks include:
 - Generating a new, strong password for the user to use if desired."
 
 ## Preview
-<img width="1200" alt="image" src="https://user-images.githubusercontent.com/64969369/234099188-c2dfe1d1-2d71-4abc-acec-b760d8a17715.png">
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/64969369/234099188-c2dfe1d1-2d71-4abc-acec-b760d8a17715.png"> <br>
+![image](https://user-images.githubusercontent.com/64969369/234103207-ef643788-d16e-4394-a779-5251ef318a59.png)
 
-
-This clearly shows us there is a lot to do in users cybersecurity awareness.<br>
-In regards to that, i decided to develop this script in order to sensitize the user, concerning the risks of using a weak password.<br>
-**Note:** The mimimum length, and the entropy's appreciation are based on <a href='https://www.ssi.gouv.fr/uploads/2021/10/anssi-guide-authentification_multifacteur_et_mots_de_passe.pdf'>ANSSI's password recommendations</a>.
-
+## Installation & Usage
+PasswordChecker is a cross platform script that works with python **3.x**.
+```
+git clone https://github.com/0liverFlow/PasswordChecker
+cd ./PasswordChecker
+pip3 install -r requirements.txt
+```
+Then you can run it
+```
+python3.x PasswordChecker.py
+```
+## Note
+Some features of this script such as the entropy calculation and the minimum generated password length appreciation are based on <a href='https://www.ssi.gouv.fr/uploads/2021/10/anssi-guide-authentification_multifacteur_et_mots_de_passe.pdf'>ANSSI's password recommendations</a>.<br>
+Feel free to take a look at it to learn more.
