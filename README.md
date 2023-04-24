@@ -15,7 +15,7 @@ These checks include:
 - Generating a new, strong password for the user to use if desired."
 
 ## Preview
-<img width="1144" alt="image" src="https://user-images.githubusercontent.com/64969369/234099104-abf8c63c-6b44-46b3-9e55-ee64eba8e48a.png">
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/64969369/234099188-c2dfe1d1-2d71-4abc-acec-b760d8a17715.png">
 
 
 This clearly shows us there is a lot to do in users cybersecurity awareness.<br>
