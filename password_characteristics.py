@@ -10,14 +10,16 @@ def check_character_occurences_in_password(password_characters_occurences: int, 
 
 def check_password_characters_mixture(password_characters_occurences_dict: dict, alphanumerical_characters_list: list) -> None:
     """
-    This function takes 2 parameters and checks the type of characters that compose a password, then displays a summary table of a given password's characters percentage.
+    This function takes 2 parameters and checks the type of characters that compose a password,
+    then displays a summary table of a given password's characters percentage.
     
     :param password_characters_occurences_dict: This is a dictionary whose keys represent 
     the type of each group of characters (special characters, numbers, ect...) and whose values represent the number of occurences
     of each group of characters (int value).
     Ex: {'special character' : 5, 'upper character' : 8, 'number': 10, 'lower character' : 0}
 
-    :param alphanumerical_characters_list: This is a matrice whose lines represent a list of character type and columns represent a character of a particular type of character.
+    :param alphanumerical_characters_list: This is a matrice whose lines represent a list of character type
+    and columns represent a character of a particular type of character.
     Ex: alphanumerical_characters_list = [['a','b','c'],['1','2','5','2'],[':', '~', '!']]
     """
     password_length = sum(password_characters_occurences_dict.values())
