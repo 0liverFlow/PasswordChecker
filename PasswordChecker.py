@@ -41,19 +41,19 @@ if __name__ == '__main__':
     password_entropie = get_entropy(len(user_password), password_characters_occurences_dict)
     printc(password_level_sensibility(password_entropie))
     
-    
     # Asking the user if they want to generate a password
     printc("\n[cyan3 bold underline][*] Password Generator[/cyan3 bold underline]\n")
     try:
         user_response = input('Do you wanna generate a password using our password generator[Yay/nay]: ')
         if user_response.lower() in ['','yay', 'yes', 'y', 'yeah', 'yep']:
             while True:
-                password_length = int(input('Enter the password length: '))
-                if password_length >= 20:
+                password_length = input('Enter the password length: ')
+                if password_length.isdigit() and int(password_length) >= 20:
                     break
                 printc('The password should have [red b]20[/red b] characters minimum!')
-            printc(f"Generated password: [magenta2 b]{password_generator(password_length)}[/magenta2 b]\n")
+            password_generator(int(password_length))
+            printc(f"[green1 b][+][/green1 b] The generated password was securely copied in your clipboard!")
     except KeyboardInterrupt:
         sys.exit(print("\nGood Bye!"))
     print("────────────────────────────────────────────────────────────────────────────")
-    printc("[yellow1 b][!][/yellow1 b] Don't forget to CHANGE your password [red b]ASAP[/red b] if it was considered unsecure.")
+    printc("[yellow1 b][!][/yellow1 b] Don't forget to [red1 b]CHANGE[/red1 b] your password [red b]ASAP[/red b] if it was considered unsecure.")
