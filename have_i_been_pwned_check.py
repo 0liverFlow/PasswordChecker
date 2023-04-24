@@ -37,5 +37,5 @@ def check_haveibeenpwned_db(password: str) -> str:
         if line.startswith(sha1_suffix):
             count = int(line.split(':')[1])
             if count > 0:
-                return f'[red1 b][-] Oh no - pwned! Password found in {count} data breach(es).[/red1 b]'  
+                return f'[red1 b][-] Oh no - pwned! Password found in {count} data breaches.[/red1 b]'  
     return "[green b][+] Hoorah \o/ - Good news! Password not found in HIBP's data breaches.[/green b]\n[yellow b][!][/yellow b] However, don't overestimate your password strength.\n[deep_pink4 b u]Tip:[/deep_pink4 b u] You should test it using other publicly available databases."
