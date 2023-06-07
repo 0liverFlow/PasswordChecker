@@ -15,8 +15,10 @@ These checks include:
 - Generating a new, strong password for the user to use if desired."
 
 ## Preview
-<img width="1200" alt="image" src="https://user-images.githubusercontent.com/64969369/234099188-c2dfe1d1-2d71-4abc-acec-b760d8a17715.png"> <br>
-![image](https://user-images.githubusercontent.com/64969369/234103207-ef643788-d16e-4394-a779-5251ef318a59.png)
+![image](https://github.com/0liverFlow/PasswordChecker/assets/64969369/075079dc-1402-4a72-b083-bb490f9f015c)
+![image](https://github.com/0liverFlow/PasswordChecker/assets/64969369/a30a3a7d-4205-444a-9ea3-c41eefa80373)
+
+
 
 ## Installation & Usage
 PasswordChecker is a cross platform script that works with python **3.x**.
