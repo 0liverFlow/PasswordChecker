@@ -30,7 +30,7 @@ def check_password_characters_mixture(password_characters_occurences_dict: dict,
     
     # Test the password length
     printc("\n[cyan3 bold underline][*] Checking password length and characters occurences[/cyan3 bold underline]")
-    if password_length < 10:
+    if password_length < 12:
         printc(f"[red3 b][-][/red3 b] Short password length: [red3 b]{password_length}[/red3 b]")
         printc("[yellow1 b][!][/yellow1 b] Please, consider changing your password [red3 b]ASAP[/red3 b]!!")
     elif password_length < 14:
