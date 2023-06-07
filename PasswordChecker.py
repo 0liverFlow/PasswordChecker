@@ -50,7 +50,7 @@ if __name__ == '__main__':
                 password_length = input('Enter the password length: ')
                 if password_length.isdigit() and int(password_length) >= 20:
                     break
-                printc('The password should have [red b]20[/red b] characters minimum!')
+                printc('The password should have at least [red b]20[/red b] characters!')
             password_generator(int(password_length))
             printc(f"[green1 b][+][/green1 b] The generated password was securely copied in your clipboard!")
     except KeyboardInterrupt:
