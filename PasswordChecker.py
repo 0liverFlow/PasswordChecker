@@ -11,7 +11,7 @@ from have_i_been_pwned_check import check_haveibeenpwned_db
 
 
 if __name__ == '__main__':
-# Display banner
+    # Display banner
     print("""
                  .--------.
                 / .------. \\
@@ -29,7 +29,7 @@ if __name__ == '__main__':
             \n""")    
     user_password = getpass('Enter your passw0rd: ')
     # Checking Have I Been Pwned Database
-    printc("\n[cyan3 bold underline][*] Checking HaveIBeenPwned database[/cyan3 bold underline]\n")
+    printc("\n[cyan3 bold underline][*] Checking HaveIBeenPwned database[/cyan3 bold underline]")
     printc(check_haveibeenpwned_db(user_password))
 
     # Checking user's password characters occurences and mixture
@@ -37,14 +37,14 @@ if __name__ == '__main__':
     check_password_characters_mixture(password_characters_occurences_dict, alphanumerical_characters_list)
         
     # Getting the password entropy
-    printc("[cyan3 bold underline][*] Password entropy[/cyan3 bold underline]\n")
+    printc("[cyan3 bold underline][*] Password entropy[/cyan3 bold underline]")
     password_entropie = get_entropy(len(user_password), password_characters_occurences_dict)
     printc(password_level_sensibility(password_entropie))
     
     # Asking the user if they want to generate a password
-    printc("\n[cyan3 bold underline][*] Password Generator[/cyan3 bold underline]\n")
+    printc("\n[cyan3 bold underline][*] Password Generator[/cyan3 bold underline]")
     try:
-        user_response = input('Do you wanna generate a password using our password generator[Yay/nay]: ')
+        user_response = input('Do you wanna generate a password using our password generator [Yay/nay]: ')
         if user_response.lower() in ['','yay', 'yes', 'y', 'yeah', 'yep']:
             while True:
                 password_length = input('Enter the password length: ')
@@ -56,4 +56,4 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         sys.exit(print("\nGood Bye!"))
     print("────────────────────────────────────────────────────────────────────────────")
-    printc("[yellow1 b][!][/yellow1 b] Don't forget to [red1 b]CHANGE[/red1 b] your password [red b]ASAP[/red b] if it was considered unsecure.")
+    printc("[yellow1 b][!][/yellow1 b] Don't forget to [red1 b]CHANGE[/red1 b] your password [red1 b]ASAP[/red1 b] if it was considered unsecure.")
