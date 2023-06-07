@@ -29,7 +29,7 @@ def check_password_characters_mixture(password_characters_occurences_dict: dict,
     password_characters_type_percentage = 0
     
     # Test the password length
-    printc("\n[cyan3 bold underline][*] Checking password length and characters occurences[/cyan3 bold underline]\n")
+    printc("\n[cyan3 bold underline][*] Checking password length and characters occurences[/cyan3 bold underline]")
     if password_length < 10:
         printc(f"[red3 b][-][/red3 b] Short password length: [red3 b]{password_length}[/red3 b]")
         printc("[yellow1 b][!][/yellow1 b] Please, consider changing your password [red3 b]ASAP[/red3 b]!!")
@@ -61,7 +61,7 @@ def check_password_characters_mixture(password_characters_occurences_dict: dict,
         printc(f"[orange_red1 b][±][/orange_red1 b] Percentage of mixed character types in password: [yellow b]{password_characters_type_percentage}%[/yellow b]") 
     else:
         printc(f"[red3 b][-][/red3 b] Percentage of mixed character types in password: [red3 b]{password_characters_type_percentage}%[/red3 b]") 
-    printc("\n[cyan3 b u][+] Looking for excessive occurences\n[/cyan3 b u]")
+    printc("\n[cyan3 b u][+] Looking for excessive occurences[/cyan3 b u]")
     for charset_type in alphanumerical_characters_list:
         
         # Knowing that alphanumerical_characters_list is a matrice, charset_type will be a list
@@ -71,10 +71,10 @@ def check_password_characters_mixture(password_characters_occurences_dict: dict,
                     character_occurences = charset_type.count(char)
                     found_excessive_occurences = True
                     if char.isspace():
-                        printc(f"[red bold][-][/red bold] {character_occurences} occurences of space character\n")
+                        printc(f"[red1 bold][-][/red1 bold] {character_occurences} occurences of space character\n")
                         character_found_list.append(char)
                     else:
-                        printc(f"[red bold][-][/red bold] {character_occurences} occurences of {char} character\n")
+                        printc(f"[red1 bold][-][/red1 bold] {character_occurences} occurences of {char} character\n")
                         character_found_list.append(char)
     if not found_excessive_occurences:
         printc("[green bold][+][/green bold] No excessive occurences of characters found!\n")
