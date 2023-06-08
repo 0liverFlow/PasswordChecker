@@ -43,7 +43,7 @@ def check_password_characters_mixture(password_characters_occurences_dict: dict,
         if password_characters_occurences < password_length // 4:
             printc(f"[red3 b][-][/red3 b] {check_character_occurences_in_password(password_characters_occurences, password_characters_type, password_length)}")
         else:
-            printc(f"[green b][+][/green b] {password_characters_type.capitalize()}: {password_characters_occurences}/{password_length}")
+            printc(f"[green b][*][/green b] {password_characters_type.capitalize()}: {password_characters_occurences}/{password_length}")
             password_characters_type_percentage += 25
         character_occurence_percentage.append(f"{password_characters_occurences/password_length*100:.2f}%")
     printc("\n[cyan3 bold underline][+] Global view of password characteristics[/cyan3 bold underline]\n")
@@ -61,7 +61,7 @@ def check_password_characters_mixture(password_characters_occurences_dict: dict,
         printc(f"[orange_red1 b][±][/orange_red1 b] Percentage of mixed character types in password: [yellow b]{password_characters_type_percentage}%[/yellow b]") 
     else:
         printc(f"[red3 b][-][/red3 b] Percentage of mixed character types in password: [red3 b]{password_characters_type_percentage}%[/red3 b]") 
-    printc("\n[cyan3 b u][+] Looking for excessive occurences[/cyan3 b u]")
+    printc("\n[cyan3 b u][*] Looking for excessive occurences[/cyan3 b u]")
     for charset_type in alphanumerical_characters_list:
         
         # Knowing that alphanumerical_characters_list is a matrice, charset_type will be a list
