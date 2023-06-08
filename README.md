@@ -12,12 +12,11 @@ These checks include:
 - Calculating the percentage of characters in the password that belong to different character types (such as lowercase/uppercase letters, numbers, and symbols)
 - Highlighting any characters that occur too frequently in the password
 - Calculating the password's entropy, which is a measure of how difficult the password would be for an attacker to guess
-- Generating a new, strong password for the user to use if desired."
+- Generating a new, strong password for the user to use if desired.
 
 ## Preview
-![image](https://github.com/0liverFlow/PasswordChecker/assets/64969369/075079dc-1402-4a72-b083-bb490f9f015c)
-![image](https://github.com/0liverFlow/PasswordChecker/assets/64969369/a30a3a7d-4205-444a-9ea3-c41eefa80373)
-
+![image](https://github.com/0liverFlow/PasswordChecker/assets/64969369/5991af1a-a7a9-426f-b0e7-b203e85305ea)
+![image](https://github.com/0liverFlow/PasswordChecker/assets/64969369/83ddda33-f34d-4e53-8d90-706a3b8f8110)
 
 
 ## Installation & Usage
